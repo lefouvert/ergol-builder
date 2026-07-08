@@ -1,4 +1,3 @@
-
 # Ergo-L TTY Builder
 
 A set of scripts to build, test, and load the Ergo-L keyboard layout in a Linux TTY.
