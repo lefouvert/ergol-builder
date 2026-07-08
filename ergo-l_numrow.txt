@@ -1,0 +1,17 @@
+# Numrow
+# ================================================================================
+# keycode         key             (+Shift)        (+AltGr)        (+Shift+AltGr)
+# ================================================================================
+  keycode  41 =   grave           asciitilde
+  keycode   2 =   one             euro            U+2081          onesuperior
+  keycode   3 =   two             guillemotleft   U+2082          twosuperior
+  keycode   4 =   three           guillemotright  U+2083          threesuperior
+  keycode   5 =   four            dollar          U+2084          U+2074
+  keycode   6 =   five            percent         U+2085          U+2075
+  keycode   7 =   six             asciicircum     U+2086          U+2076
+  keycode   8 =   seven           ampersand       U+2087          U+2077
+  keycode   9 =   eight           asterisk        U+2088          U+2078
+  keycode  10 =   nine            numbersign      U+2089          U+2079
+  keycode  11 =   zero            at              U+2080          U+2070
+  keycode  12 =   slash           underscore
+  keycode  13 =   equal           plus

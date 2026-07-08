@@ -1,0 +1,15 @@
+# Lower row
+# ================================================================================
+# keycode         key             (+Shift)        (+AltGr)        (+Shift+AltGr)
+# ================================================================================
+  keycode  86 =   less            greater
+  keycode  44 =   z               Z               asciitilde      dead_tilde
+  keycode  45 =   x               X               bracketleft     dead_belowcomma
+  keycode  46 =   minus           question        bracketright    dead_ogonek
+  keycode  47 =   v               V               underscore      endash
+  keycode  48 =   b               B               numbersign
+  keycode  49 =   period          colon           bar             brokenbar
+  keycode  50 =   h               H               exclam          notsign
+  keycode  51 =   g               G               semicolon       dead_cedilla
+  keycode  52 =   comma           semicolon       colon           colon
+  keycode  53 =   k               K               question        dead_breve

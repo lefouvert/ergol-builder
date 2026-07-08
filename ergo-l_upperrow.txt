@@ -1,0 +1,16 @@
+# Upper row
+# ================================================================================
+# keycode         key             (+Shift)        (+AltGr)        (+Shift+AltGr)
+# ================================================================================
+  keycode  16 =   q               Q               asciicircum     dead_circumflex
+  keycode  17 =   c               C               less            U+2264                                          # ≤
+  keycode  18 =   o               O               greater         U+2265
+  keycode  19 =   p               P               dollar          dead_currency
+  keycode  20 =   w               W               percent         U+2030
+  keycode  21 =   j               J               at              dead_abovering
+  keycode  22 =   m               M               ampersand
+  keycode  23 =   d               D               asterisk        multiply
+  keycode  24 =   dead_abovecomma exclam          apostrophe      dead_acute
+  keycode  25 =   y               Y               grave           dead_grave
+  keycode  26 =   bracketleft     braceleft
+  keycode  27 =   bracketright    braceright

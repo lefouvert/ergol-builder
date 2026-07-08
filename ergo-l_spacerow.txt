@@ -1,0 +1,5 @@
+# Space row
+# ================================================================================
+# keycode         key             (+Shift)        (+AltGr)        (+Shift+AltGr) 
+# ================================================================================
+  keycode  57 =   space           U+202f          space           nobreakspace    # narrow no-break space

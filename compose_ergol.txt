@@ -1,0 +1,70 @@
+# compose Num row
+compose ')'    '1'      to U+201e                  # * + 1 = „
+compose ')'    U+20ac   to U+201a                  # * + € = ‚
+compose ')'    '2'      to U+201c                  # * + 2 = “
+compose ')'    U+00ab   to U+2018                  # * + « = ‘
+compose ')'    '3'      to U+201d                  # * + 3 = ”
+compose ')'    U+00bb   to U+2019                  # * + » = ’
+compose ')'    '4'      to cent                    # * + 4 = ¢
+compose ')'    '5'      to U+2030                  # * + 5 = ‰
+compose ')'    '8'      to section                 # * + 8 = §
+compose ')'    '9'      to pilcrow                 # * + 9 = ¶
+compose ')'    '0'      to degree                  # * + 0 = °
+compose ')'    '/'      to division                # * + / = ÷
+compose ')'    '_'      to endash                  # * + _ = – (En Dash)
+compose ')'    '='      to U+2260                  # * + = = ≠
+compose ')'    '+'      to plusminus               # * + + = ±
+
+# compose Upper row
+compose ')'    'q'      to acircumflex             # * + q = â
+compose ')'    'Q'      to Acircumflex             # * + Q = Â
+compose ')'    'c'      to ccedilla                # * + c = ç
+compose ')'    'C'      to Ccedilla                # * + C = Ç
+compose ')'    'o'      to oe                      # * + o = œ
+compose ')'    'O'      to OE                      # * + O = Œ
+compose ')'    'p'      to ocircumflex             # * + p = ô
+compose ')'    'P'      to Ocircumflex             # * + P = Ô
+compose ')'    'm'      to mu                      # * + m = µ
+compose ')'    'd'      to underscore              # * + d = _
+compose ')'    'D'      to underscore              # * + D = _
+compose ')'    ')'      to dead_diaeresis          # * + * = *"
+compose ')'    '!'      to exclamdown              # * + ! = ¡
+compose ')'    'y'      to ucircumflex             # * + y = û
+compose ')'    'Y'      to Ucircumflex             # * + Y = Û
+
+# compose Home row
+compose ')'    'a'      to agrave                  # * + a = à
+compose ')'    'A'      to Agrave                  # * + A = À
+compose ')'    's'      to eacute                  # * + s = é
+compose ')'    'S'      to Eacute                  # * + S = É
+compose ')'    'e'      to egrave                  # * + e = è
+compose ')'    'E'      to Egrave                  # * + E = È
+compose ')'    'n'      to ecircumflex             # * + n = ê
+compose ')'    'N'      to Ecircumflex             # * + N = Ê
+compose ')'    'f'      to ntilde                  # * + f = ñ
+compose ')'    'F'      to Ntilde                  # * + F = Ñ
+compose ')'    'l'      to parenleft               # * + l = (
+compose ')'    'r'      to parenright              # * + r = )
+compose ')'    't'      to icircumflex             # * + t = î
+compose ')'    'T'      to Icircumflex             # * + T = Î
+compose ')'    'i'      to idiaeresis              # * + i = ï
+compose ')'    'I'      to Idiaeresis              # * + I = Ï
+compose ')'    'u'      to ugrave                  # * + u = ù
+compose ')'    'U'      to Ugrave                  # * + U = Ù
+
+# compose Lower row
+compose ')'    'z'      to ae                      # * + z = æ
+compose ')'    'Z'      to AE                      # * + Z = Æ
+compose ')'    'x'      to ssharp                  # * + x = ß
+compose ')'    'X'      to U+1e9e                  # * + X = ẞ
+compose ')'    '-'      to U+2011                  # * + - = ‑ (non-breaking hyphen)
+compose ')'    '?'      to questiondown            # * + ? = ¿
+compose ')'    'v'      to endash                  # * + v = –
+compose ')'    'b'      to emdash                  # * + b = —
+compose ')'    '.'      to U+2026                  # * + . = …
+compose ')'    'g'      to dead_greek              # * + m = greek
+compose ')'    ','      to periodcentered          # * + , = ·
+compose ')'    ';'      to U+2022                  # * + ; = •
+
+# compose Space row
+compose ')'    ' '      to U+2019                  # * +   = ’

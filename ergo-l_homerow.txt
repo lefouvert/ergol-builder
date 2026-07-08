@@ -1,0 +1,16 @@
+# Home row
+# ================================================================================
+# keycode         key             (+Shift)        (+AltGr)        (+Shift+AltGr)
+# ================================================================================
+  keycode  30 =   a               A               braceleft       dead_caron
+  keycode  31 =   s               S               parenleft
+  keycode  32 =   e               E               parenright
+  keycode  33 =   n               N               braceright      dead_abovedot
+  keycode  34 =   f               F               equal           U+2260
+  keycode  35 =   l               L               backslash       dead_stroke
+  keycode  36 =   r               R               plus            plusminus
+  keycode  37 =   t               T               minus           dead_macron
+  keycode  38 =   i               I               slash           division
+  keycode  39 =   u               U               quotedbl        dead_doubleacute
+  keycode  40 =   apostrophe      quotedbl
+  keycode  43 =   backslash       bar
