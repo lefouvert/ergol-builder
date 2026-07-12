@@ -58,8 +58,20 @@ set -u
 #   and avoid building more complex workarounds than the one for dead_diaeresis
 #   (thereby reducing the dependency on the exclusion table).
 
+# symlink resolution
+target="$0"
+while [ -L "$target" ]; do
+  link_reveal=$(ls -ld "$target")
+  linked=$(printf "%s" "$link_reveal" | sed 's/.*-> //')
+  case "$linked" in
+    /*) target="$linked" ;;
+    *)  target=$(dirname "$target")/$linked ;;
+  esac
+done
+
 # script's file
-readonly SCRIPT_DIR=$(dirname "$0")
+readonly SCRIPT_DIR=$(cd "$(dirname "$target")" && pwd)
+#readonly SCRIPT_DIR=$(dirname "$0")
 
 readonly LOG_FILE="${SCRIPT_DIR}/ergol_builder.log"
 readonly TARGET="${SCRIPT_DIR}/built.map"
